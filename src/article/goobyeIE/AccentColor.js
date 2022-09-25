@@ -49,7 +49,7 @@ const AccentColor = () => {
       caption="フォーム要素のチェックボックス・ラジオボタン・レンジスライダー・プログレスバーのカラーを変更する。"
     >
       <PatternBox title="accent-color: #ffc0cb;">
-        <InputArea ac="#ffc0cb" pac="#ffc0cb" />
+        <InputArea ac="" pac="" />
       </PatternBox>
       <PatternBox title="accent-color: cornflowerblue;">
         <InputArea ac="cornflowerblue" pac="cornflowerblue" />

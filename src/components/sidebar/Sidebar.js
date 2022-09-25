@@ -11,15 +11,12 @@ const Sidebar = () => {
       i === 0 ? true : false
     );
   });
-  console.log(openList)
 
   const onClickNavBtn = (index) => {
     // クリックしたコンポーネントのインデックス以外をfalseにしてstateをセット
-    // alert(index)
     setOpen(
       openList.map((open, i) => (i === index ? !open : false))
     );
-    console.log(openList)
   };
 
   return (

@@ -1,13 +1,5 @@
-import styled from "styled-components";
-
 import ArticleLayout from "../../components/article/ArticleLayout";
 import PatternBox from "../../components/article/PatternBox";
-import CodeBlock from "../../components/article/CodeBlock";
-
-import img9 from "../../images/goobyeIE/image9.jpg";
-import img10 from "../../images/goobyeIE/image10.jpg";
-import img11 from "../../images/goobyeIE/image11.jpg";
-
 import styles from './container.module.scss';
 
 const Card = (props) => {
